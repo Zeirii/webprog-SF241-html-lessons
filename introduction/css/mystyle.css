@@ -1,13 +1,17 @@
 h1 {
   background-color: green;
 }
-
+body {
+    background-color: burlywood;
+}
 div {
   background-color: rgb(28, 186, 200);
   opacity: 0.3;
 }
+
 .special-paragraph {
   background-color: yellow;
   border: 2px solid red;
   border-radius: 5px;
+  text-align: center;
 }
