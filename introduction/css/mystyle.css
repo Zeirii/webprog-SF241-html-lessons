@@ -5,3 +5,18 @@ h1 {
   color: black;
   margin-left: 30px;
 }
+h1 {
+  background-color: green;
+}
+
+div {
+  background-color: rgb(28, 186, 200);
+  opacity: 0.3;
+}
+p {
+  background-color: yellow;
+}
+p {
+  border: 2px solid red;
+  border-radius: 5px;
+}
