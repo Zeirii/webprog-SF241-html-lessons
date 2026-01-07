@@ -1,111 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="UTF-8">
-  <title>Personal Profile Web Page - Kristoff</title>
+  <link rel="stylesheet" href="css/rwd.css">
+  <title>WEBPROG Introduction</title>
 </head>
 <body>
 
-  <!-- Layout Container -->
-  <div style="display:flex;">
+  <div class="grid-container">
 
-    <!-- Left Navigation -->
-    <nav style="width:200px; padding:10px; background-color:#f0f0f0;">
-      <h3>Navigation</h3>
-      <ul style="list-style:none; padding-left:0;">
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#education">Education / Achievements</a></li>
-        <li><a href="#course">Course</a></li>
-        <li><a href="#hobbies">Hobbies & Interests</a></li>
-        <li><a href="#goals">Goals in Life</a></li>
-      </ul>
-    </nav>
-
-    <!-- Main Content -->
-    <main style="flex:1; padding:10px;">
+    <div class="header">
       <h1>Personal Profile Web Page - Kristoff</h1>
+    </div>
 
-      <section id="about">
-        <h2>About Me</h2>
-        <img src="https://media.tenor.com/_zWYqfZdneIAAAAM/shocked-face-shocked-meme.gif" alt="Profile" width="150" height="150">
-        <p>
-          I'm Kristoff Viray, a 2nd year Computer Science student at Asia Pacific College specializing in Cybersecurity and Forensics.
-          I'm a joyful person who likes to spread joy through random moments and meaningful connections.
-        </p>
-      </section>
+    <div class="menu">
+      <ul>
+        <li>About Me</li>
+        <li>Education / Achievements</li>
+        <li>Course</li>
+        <li>Hobbies & Interests</li>
+        <li>Goals in Life</li>
+      </ul>
+    </div>
 
-      <section id="education">
-        <h2>Education / Achievements</h2>
-        <p>Bachelor of Science in Computer Science – Asia Pacific College</p>
-      </section>
+    <div class="content">
+      <h1>About Me</h1>
+      <img src="https://media.tenor.com/_zWYqfZdneIAAAAM/shocked-face-shocked-meme.gif"
+           alt="profile image"
+           class="profile-image"
+           width="250"
+           height="300">
+      <p><strong>About Me:</strong> I'm Kristoff Viray, a 2nd year Computer Science student at Asia Pacific College specializing in Cybersecurity and Forensics. I'm a joyful person who likes to spread joy through random moments and meaningful connections.</p>
+      <p><strong>Education / Achievements:</strong> Bachelor of Science in Computer Science – Asia Pacific College</p>
+      <p><strong>IT Experience:</strong> Kali Linux, Ubuntu, CMD, SQL, Python, Java, HTML, CSS, TrendMicro UCTF (Team Cynext), Perplexity, Gemini, Copilot</p>
+      <p><strong>Hobbies & Interests:</strong> Gaming, sleeping, solo trips with nice scenery, spending on food and tech, photography, memory hoarding</p>
+      <p><strong>Goals In Life / Dream:</strong> Graduate with honors, make parents proud, become financially stable through personal effort, and travel around the world</p>
+    </div>
 
-      <section id="course">
-        <h2>Course</h2>
-        <p>BSCS-SF – Specialization in Cybersecurity and Forensics</p>
-      </section>
-
-      <section id="experience">
-        <h2>IT Experience</h2>
-        <ul>
-          <li>Kali Linux and Ubuntu (Infosec, OPESYST)</li>
-          <li>TrendMicro UCTF (Team Cynext)</li>
-          <li>CMD and SQL</li>
-          <li>Python, Java, HTML, CSS</li>
-          <li>Uses Perplexity, Gemini, Copilot</li>
-        </ul>
-      </section>
-
-      <section id="hobbies">
-        <h2>Hobbies & Interests</h2>
-        <ul>
-          <li>Gaming</li>
-          <li>Sleeping</li>
-          <li>Solo trips with nice scenery</li>
-          <li>Spending on food and tech</li>
-          <li>Photography and memory hoarding</li>
-        </ul>
-      </section>
-
-      <section id="goals">
-        <h2>Goals in Life / Dream</h2>
-        <ul>
-          <li>Graduate with honors</li>
-          <li>Make parents proud</li>
-          <li>Become financially stable through personal effort</li>
-          <li>Travel around the world</li>
-        </ul>
-      </section>
-
-      <section id="gallery">
-        <h2>Picture Gallery</h2>
-        <img src="https://media.tenor.com/_zWYqfZdneIAAAAM/shocked-face-shocked-meme.gif" alt="Gallery Pic 1" width="100" height="100">
-        <img src="https://media.tenor.com/_zWYqfZdneIAAAAM/shocked-face-shocked-meme.gif" alt="Gallery Pic 2" width="100" height="100">
-      </section>
-
-      <section>
-        <h2>Demo External JavaScript</h2>
-        <p id="demo">Paragraph changed.</p>
-        <button onclick="myFunction()">Try it</button>
-        <p>This example links to "script.js".</p>
-        <p>(myFunction is stored in "script.js")</p>
-      </section>
-
-      <footer>
-        <p>Created by Kristoff Viray for WEBPROG Week 4 Day 1 – January 7, 2026</p>
-      </footer>
-    </main>
-
-    <!-- Right Sidebar -->
-    <aside style="width:200px; padding:10px; background-color:#f9f9f9;">
-      <h3>Facts:</h3>
+    <div class="facts">
+      <h2>Facts:</h2>
       <ul>
         <li>I like photography</li>
         <li>I enjoy solo travel</li>
       </ul>
-    </aside>
-  </div>
+    </div>
 
-  <!-- External JavaScript -->
-  <script src="script.js"></script>
+    <h2>Demo External JavaScript</h2>
+
+    <p id="demo">A Paragraph.</p>
+
+    <button type="button" onclick="myFunction()">Try it</button>
+
+    <p>This example links to "myScript.js".</p>
+    <p>(myFunction is stored in "myScript.js")</p>
+
+    <script src="js/myScript.js"></script>
+
+  </div>
 </body>
 </html>
