@@ -16,26 +16,74 @@
 
     <div class="menu">
       <ul>
-        <li>About Me</li>
-        <li>Education / Achievements</li>
-        <li>Course</li>
-        <li>Hobbies & Interests</li>
-        <li>Goals in Life</li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#education">Education / Achievements</a></li>
+        <li><a href="#course">Course</a></li>
+        <li><a href="#hobbies">Hobbies & Interests</a></li>
+        <li><a href="#goals">Goals in Life</a></li>
       </ul>
     </div>
 
     <div class="content">
-      <h1>About Me</h1>
-      <img src="https://media.tenor.com/_zWYqfZdneIAAAAM/shocked-face-shocked-meme.gif"
-           alt="profile image"
-           class="profile-image"
-           width="250"
-           height="300">
-      <p><strong>About Me:</strong> I'm Kristoff Viray, a 2nd year Computer Science student at Asia Pacific College specializing in Cybersecurity and Forensics. I'm a joyful person who likes to spread joy through random moments and meaningful connections.</p>
-      <p><strong>Education / Achievements:</strong> Bachelor of Science in Computer Science – Asia Pacific College</p>
-      <p><strong>IT Experience:</strong> Kali Linux, Ubuntu, CMD, SQL, Python, Java, HTML, CSS, TrendMicro UCTF (Team Cynext), Perplexity, Gemini, Copilot</p>
-      <p><strong>Hobbies & Interests:</strong> Gaming, sleeping, solo trips with nice scenery, spending on food and tech, photography, memory hoarding</p>
-      <p><strong>Goals In Life / Dream:</strong> Graduate with honors, make parents proud, become financially stable through personal effort, and travel around the world</p>
+      <section id="about">
+        <h2>About Me</h2>
+        <img src="https://media.tenor.com/_zWYqfZdneIAAAAM/shocked-face-shocked-meme.gif"
+             alt="profile image"
+             class="profile-image"
+             width="250"
+             height="300">
+        <p><strong>About Me:</strong> I'm Kristoff Viray, a 2nd year Computer Science student at Asia Pacific College specializing in Cybersecurity and Forensics. I'm a joyful person who likes to spread joy through random moments and meaningful connections.</p>
+      </section>
+
+      <section id="education">
+        <h2>Education / Achievements</h2>
+        <p>Bachelor of Science in Computer Science – Asia Pacific College</p>
+      </section>
+
+      <section id="course">
+        <h2>Course</h2>
+        <p>BSCS-SF – Specialization in Cybersecurity and Forensics</p>
+      </section>
+
+      <section id="experience">
+        <h2>IT Experience</h2>
+        <ul>
+          <li>Kali Linux and Ubuntu (Infosec, OPESYST)</li>
+          <li>TrendMicro UCTF (Team Cynext)</li>
+          <li>CMD and SQL</li>
+          <li>Python, Java, HTML, CSS</li>
+          <li>Uses Perplexity, Gemini, Copilot</li>
+        </ul>
+      </section>
+
+      <section id="hobbies">
+        <h2>Hobbies & Interests</h2>
+        <ul>
+          <li>Gaming</li>
+          <li>Sleeping</li>
+          <li>Solo trips with nice scenery</li>
+          <li>Spending on food and tech</li>
+          <li>Photography and memory hoarding</li>
+        </ul>
+      </section>
+
+      <section id="goals">
+        <h2>Goals In Life / Dream</h2>
+        <ul>
+          <li>Graduate with honors</li>
+          <li>Make parents proud</li>
+          <li>Become financially stable through personal effort</li>
+          <li>Travel around the world</li>
+        </ul>
+      </section>
+
+      <section id="demo">
+        <h2>Demo External JavaScript</h2>
+        <p id="demo-text">A Paragraph.</p>
+        <button type="button" onclick="myFunction()">Try it</button>
+        <p>This example links to "myScript.js".</p>
+        <p>(myFunction is stored in "myScript.js")</p>
+      </section>
     </div>
 
     <div class="facts">
@@ -46,17 +94,8 @@
       </ul>
     </div>
 
-    <h2>Demo External JavaScript</h2>
-
-    <p id="demo">A Paragraph.</p>
-
-    <button type="button" onclick="myFunction()">Try it</button>
-
-    <p>This example links to "myScript.js".</p>
-    <p>(myFunction is stored in "myScript.js")</p>
-
-    <script src="js/myScript.js"></script>
-
   </div>
+
+  <script src="js/myScript.js"></script>
 </body>
 </html>
