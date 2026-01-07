@@ -1,45 +1,97 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>WEBPROG SF241 Introduction VIRAY</title>
-  <link rel="stylesheet" href="css/flexbox.css">
+  <meta charset="UTF-8">
+  <title>Personal Profile Web Page - Kristoff Viray</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 
-<h1 style="text-align: center;">Personal Profile Web page VIRAY</h1>
-
-<div class="container">
-  <div class="card">
-    <h3>About Me</h3>
-    <p>I am a 2nd year Computer Science Student at Asia Pacific College specializing in cybersecurity and forensics. I am a joyful person who likes to spread joy across people through me or some stuff that happens randomly.</p>
+  <!-- Sidebar Navigation -->
+  <div style="width:200px; float:left; padding:10px; background-color:#f0f0f0;">
+    <h3>Navigation</h3>
+    <ul style="list-style:none; padding-left:0;">
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#experience">IT Experience</a></li>
+      <li><a href="#hobbies">Hobbies & Interests</a></li>
+      <li><a href="#goals">Goals in Life</a></li>
+      <li><a href="#gallery">Picture Gallery</a></li>
+    </ul>
   </div>
 
-  <div class="card">
-    <h3>My hobbies/interest</h3>
-    <p>I like to enjoy spending my time gaming, sleeping, enjoying trips alone through sceneries, spending money on food and tech stuff, photography, and memory hoarding.</p>
+  <!-- Main Content -->
+  <div style="margin-left:220px; padding:10px;">
+    <h1>Personal Profile Web Page - Kristoff Viray</h1>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am a 2nd year Computer Science student specializing in Cybersecurity and Forensics at Asia Pacific College.
+        I enjoy spreading joy and finding meaning in random moments.
+      </p>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <p>
+        BSCS-SF – Bachelor of Science in Computer Science with specialization in Cyber Security and Forensics – Asia Pacific College.
+      </p>
+    </section>
+
+    <section id="experience">
+      <h2>IT Experience</h2>
+      <ul>
+        <li>Kali Linux and Ubuntu (Infosec, OPESYST)</li>
+        <li>TrendMicro UCTF (Team Cynext)</li>
+        <li>CMD and SQL</li>
+        <li>Python, Java, HTML, CSS</li>
+        <li>Uses Perplexity, Gemini, Copilot</li>
+      </ul>
+    </section>
+
+    <section id="hobbies">
+      <h2>Hobbies & Interests</h2>
+      <ul>
+        <li>Gaming</li>
+        <li>Sleeping</li>
+        <li>Solo trips with nice scenery</li>
+        <li>Spending on food and tech</li>
+        <li>Photography and memory hoarding</li>
+      </ul>
+    </section>
+
+    <section id="goals">
+      <h2>Goals in Life / Dream</h2>
+      <ul>
+        <li>Graduate with honors</li>
+        <li>Make parents proud</li>
+        <li>Become financially stable through personal effort</li>
+        <li>Travel around the world</li>
+      </ul>
+    </section>
+
+    <section id="gallery">
+      <h2>Picture Gallery</h2>
+      <img src="https://media.tenor.com/_zWYqfZdneIAAAAM/shocked-face-shocked-meme.gif" alt="pic 1" width="100" height="100">
+      <img src="https://media.tenor.com/_zWYqfZdneIAAAAM/shocked-face-shocked-meme.gif" alt="pic 2" width="100" height="100">
+    </section>
+
+    <!-- External JavaScript Demo -->
+    <section>
+      <h2>Demo External JavaScript</h2>
+      <p id="demo">A Paragraph.</p>
+      <button onclick="myFunction()">Try it</button>
+      <p>This example links to "script.js".</p>
+      <p>(myFunction is stored in "script.js")</p>
+    </section>
+
+    <footer>
+      <p>Created by Kristoff Viray for WEBPROG Week 4 Day 1 - January 7, 2026</p>
+    </footer>
   </div>
 
-  <div class="card">
-    <h3>My life so far</h3>
-    <p>My life so far is tiring but worth it since all this dedication and hard work is for myself and my future, and also for the person in my heart. I really like to spend time with her a lot because we connect in many aspects and deeply relate to each other.</p>
-  </div>
-
-  <div class="card">
-    <h3>My Technological experience</h3>
-    <p>My current experience in IT starts with Kali Linux, which we used in our Infosec subject and during the TrendMicro UCTF as part of team Cynext. We placed around the middle of 250 teams and I am proud to have taken part in it. We also used Ubuntu in our OPESYST class, and I have experience with CMD and SQL, as well as programming languages like Python, Java, HTML, and CSS. AI tools I use to learn include Perplexity, Gemini, and Copilot, and my main coding environments are Visual Studio Code and GitHub.</p>
-  </div>
-
-  <div class="card">
-    <h3>Goals in life</h3>
-    <p>My goals in life are to graduate, be part of the honor list, make my parents proud, grind until I feel stable and have earned it through my own hands, and travel around the world.</p>
-  </div>
-
-  <div class="card">
-    <h3>Picture gallery</h3>
-    <img src="https://media.tenor.com/_zWYqfZdneIAAAAM/shocked-face-shocked-meme.gif"
-         alt="shocked meme">
-  </div>
-</div>
-
+  <!-- External JavaScript -->
+  <script src="script.js"></script>
 </body>
 </html>
